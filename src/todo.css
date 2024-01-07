@@ -1,0 +1,122 @@
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%; /* Ensures the content scales to the screen width */
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  
+  .mc2 {
+    margin-left: 10px;
+  }
+  
+  .text-add {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0a75d3;
+  }
+  
+  .item {
+    display: flex;
+    align-items: right;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .item span {
+    flex: 1;
+  }
+  
+  button:nth-child(2) {
+    background-color: #ff9800;
+    margin-left: 5px;
+  }
+  
+  button:nth-child(3) {
+    background-color: #4CAF50;
+    margin-left: 5px;
+  }
+  
+  button:hover:nth-child(2) {
+    background-color: #f57c00;
+  }
+  
+  button:hover:nth-child(3) {
+    background-color: #3d8f30;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  article {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button#clear-all {
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button#clear-all:hover {
+    background-color: #c62828;
+  }
+  
